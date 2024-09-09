@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    background-color: #6a1b9a;
+    margin: 0;
+    font-family: SUSE, 'Courier New', Courier, monospace;
+    color: #f3f1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #4527a0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.action-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input#textInput {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d9ceff;
+    background-color: #f3f1ff;
+    color: #4527a0;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8e24aa;
+    color: #f3f1ff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button i {
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ab47bc;
+}
+
+.delete-btn {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #f44336;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8e24aa;
+    color: #f3f1ff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ab47bc;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d9ceff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.todo input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.delete-btn {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #f44336;
+}
+
