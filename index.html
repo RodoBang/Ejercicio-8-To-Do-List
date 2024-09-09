@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <div class="action-container">
+            <input id="textInput" type="text" placeholder="Nueva tarea...">
+            <button onclick="createToDo()"><i class='bx bx-plus'></i></button>
+        </div>
+        <div id="list-container">
+            <div class="todo">
+                <input type="checkbox" name="done" id="1">
+                <span>Nombre de la tarea</span>
+                <button class="delete-btn"><i class='bx bx-trash'></i></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
